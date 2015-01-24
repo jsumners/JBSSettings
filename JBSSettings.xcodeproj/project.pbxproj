@@ -27,6 +27,7 @@
 		1129545B1A74259F00045A0C /* JBSSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSSettings.m; sourceTree = "<group>"; };
 		112954601A7425E900045A0C /* Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
 		112954631A7425E900045A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		112954681A742B7E00045A0C /* MAObjCRuntime */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MAObjCRuntime; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		112954591A74252F00045A0C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				112954681A742B7E00045A0C /* MAObjCRuntime */,
 				1129545A1A74259F00045A0C /* JBSSettings.h */,
 				1129545B1A74259F00045A0C /* JBSSettings.m */,
 			);
