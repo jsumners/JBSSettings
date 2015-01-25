@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111ECC641A74424D00078463 /* MARTNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC4F1A74424D00078463 /* MARTNSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		111ECC661A74424D00078463 /* RTIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC521A74424D00078463 /* RTIvar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		111ECC671A74424D00078463 /* RTMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC541A74424D00078463 /* RTMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		111ECC681A74424D00078463 /* RTProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC561A74424D00078463 /* RTProperty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		111ECC691A74424D00078463 /* RTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC581A74424D00078463 /* RTProtocol.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		111ECC6A1A74424D00078463 /* RTUnregisteredClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 111ECC5A1A74424D00078463 /* RTUnregisteredClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		112954641A7425E900045A0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112954631A7425E900045A0C /* main.m */; };
+		11D18E1C1A7432EC00FF0A27 /* JBSSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1129545B1A74259F00045A0C /* JBSSettings.m */; };
+		5D8299B8B0DA142479AC0F1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7165264E8665F4D2103AAC0F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +31,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		111ECC4E1A74424D00078463 /* MARTNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARTNSObject.h; sourceTree = "<group>"; };
+		111ECC4F1A74424D00078463 /* MARTNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARTNSObject.m; sourceTree = "<group>"; };
+		111ECC511A74424D00078463 /* RTIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTIvar.h; sourceTree = "<group>"; };
+		111ECC521A74424D00078463 /* RTIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTIvar.m; sourceTree = "<group>"; };
+		111ECC531A74424D00078463 /* RTMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTMethod.h; sourceTree = "<group>"; };
+		111ECC541A74424D00078463 /* RTMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTMethod.m; sourceTree = "<group>"; };
+		111ECC551A74424D00078463 /* RTProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTProperty.h; sourceTree = "<group>"; };
+		111ECC561A74424D00078463 /* RTProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTProperty.m; sourceTree = "<group>"; };
+		111ECC571A74424D00078463 /* RTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTProtocol.h; sourceTree = "<group>"; };
+		111ECC581A74424D00078463 /* RTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTProtocol.m; sourceTree = "<group>"; };
+		111ECC591A74424D00078463 /* RTUnregisteredClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTUnregisteredClass.h; sourceTree = "<group>"; };
+		111ECC5A1A74424D00078463 /* RTUnregisteredClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTUnregisteredClass.m; sourceTree = "<group>"; };
 		1129545A1A74259F00045A0C /* JBSSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBSSettings.h; sourceTree = "<group>"; };
 		1129545B1A74259F00045A0C /* JBSSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBSSettings.m; sourceTree = "<group>"; };
 		112954601A7425E900045A0C /* Example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
 		112954631A7425E900045A0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		112954681A742B7E00045A0C /* MAObjCRuntime */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MAObjCRuntime; sourceTree = "<group>"; };
+		12482DA71797A1EEDF7F3627 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7165264E8665F4D2103AAC0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1504C860B5051DBF42B9947 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,25 +57,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8299B8B0DA142479AC0F1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111ECC491A74424D00078463 /* MAObjCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				111ECC4E1A74424D00078463 /* MARTNSObject.h */,
+				111ECC4F1A74424D00078463 /* MARTNSObject.m */,
+				111ECC511A74424D00078463 /* RTIvar.h */,
+				111ECC521A74424D00078463 /* RTIvar.m */,
+				111ECC531A74424D00078463 /* RTMethod.h */,
+				111ECC541A74424D00078463 /* RTMethod.m */,
+				111ECC551A74424D00078463 /* RTProperty.h */,
+				111ECC561A74424D00078463 /* RTProperty.m */,
+				111ECC571A74424D00078463 /* RTProtocol.h */,
+				111ECC581A74424D00078463 /* RTProtocol.m */,
+				111ECC591A74424D00078463 /* RTUnregisteredClass.h */,
+				111ECC5A1A74424D00078463 /* RTUnregisteredClass.m */,
+			);
+			name = MAObjCRuntime;
+			path = Classes/MAObjCRuntime;
+			sourceTree = SOURCE_ROOT;
+		};
 		112954521A74236A00045A0C = {
 			isa = PBXGroup;
 			children = (
 				112954591A74252F00045A0C /* Classes */,
 				112954621A7425E900045A0C /* Example */,
 				112954611A7425E900045A0C /* Products */,
+				679384727B4A53F68FA286A2 /* Pods */,
+				388FF1D8F442C747D8CFDCC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		112954591A74252F00045A0C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				112954681A742B7E00045A0C /* MAObjCRuntime */,
+				111ECC491A74424D00078463 /* MAObjCRuntime */,
 				1129545A1A74259F00045A0C /* JBSSettings.h */,
 				1129545B1A74259F00045A0C /* JBSSettings.m */,
 			);
@@ -74,6 +119,23 @@
 				112954631A7425E900045A0C /* main.m */,
 			);
 			path = Example;
+			sourceTree = SOURCE_ROOT;
+		};
+		388FF1D8F442C747D8CFDCC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7165264E8665F4D2103AAC0F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		679384727B4A53F68FA286A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12482DA71797A1EEDF7F3627 /* Pods.debug.xcconfig */,
+				F1504C860B5051DBF42B9947 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112954651A7425E900045A0C /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				56BF3179436EFF53CBB1CAA9 /* Check Pods Manifest.lock */,
 				1129545C1A7425E900045A0C /* Sources */,
 				1129545D1A7425E900045A0C /* Frameworks */,
 				1129545E1A7425E900045A0C /* CopyFiles */,
+				0E5D518090BF14BA1A12E268 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,12 +190,52 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E5D518090BF14BA1A12E268 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56BF3179436EFF53CBB1CAA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1129545C1A7425E900045A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				112954641A7425E900045A0C /* main.m in Sources */,
+				11D18E1C1A7432EC00FF0A27 /* JBSSettings.m in Sources */,
+				111ECC681A74424D00078463 /* RTProperty.m in Sources */,
+				111ECC691A74424D00078463 /* RTProtocol.m in Sources */,
+				111ECC6A1A74424D00078463 /* RTUnregisteredClass.m in Sources */,
+				111ECC661A74424D00078463 /* RTIvar.m in Sources */,
+				111ECC671A74424D00078463 /* RTMethod.m in Sources */,
+				111ECC641A74424D00078463 /* MARTNSObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +256,7 @@
 		};
 		112954661A7425E900045A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12482DA71797A1EEDF7F3627 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -193,6 +298,7 @@
 		};
 		112954671A7425E900045A0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1504C860B5051DBF42B9947 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -245,6 +351,7 @@
 				112954671A7425E900045A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
