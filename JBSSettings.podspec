@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'JBSSettings'
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = 'A settings object that is less annoying than NSUserDefaults'
   s.description  = 'A settings object that is less annoying than NSUserDefaults.'
   s.homepage     = 'https://github.com/jsumners/JBSSettings'
