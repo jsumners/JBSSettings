@@ -66,10 +66,11 @@
         cattrs[attrIdx].value = [[attrs objectForKey:attrCode] UTF8String];
         attrIdx++;
     }
+    long attrsCount = [[NSNumber numberWithUnsignedLong:[attrs count]] integerValue];
     BOOL result = class_addProperty(classToAddTo,
                                     [[self name] UTF8String],
                                     cattrs,
-                                    [attrs count]);
+                                    (UInt32) attrsCount);
     free(cattrs);
     return result;
 }
