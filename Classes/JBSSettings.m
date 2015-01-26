@@ -22,11 +22,10 @@
 - (BOOL)load:(NSError *__autoreleasing *)anError {
   if (settingsFilePath == nil) {
     if (*anError) {
-      NSError *error = [NSError errorWithDomain:@"com.jrfom.JBSSettings"
-                                           code:SETTINGS_FILE_NOT_FOUND
-                                       userInfo:@{NSLocalizedDescriptionKey:
-                                                    @"settingsFileURL: is nil"}];
-      *anError = error;
+      *anError  = [NSError errorWithDomain:@"com.jrfom.JBSSettings"
+                                      code:SETTINGS_FILE_NOT_FOUND
+                                  userInfo:@{NSLocalizedDescriptionKey:
+                                               @"settingsFileURL: is nil"}];
     }
     return NO;
   }
@@ -53,18 +52,16 @@
 - (BOOL)save:(NSError *__autoreleasing *)anError {
   if (settingsFilePath == nil) {
     if (*anError) {
-      NSError *error = [NSError errorWithDomain:@"com.jrfom.JBSSettings"
-                                           code:SETTINGS_FILE_NOT_FOUND
-                                       userInfo:@{NSLocalizedDescriptionKey:
-                                                    @"settingsFileURL: is nil"}];
-      *anError = error;
+      *anError = [NSError errorWithDomain:@"com.jrfom.JBSSettings"
+                                     code:SETTINGS_FILE_NOT_FOUND
+                                 userInfo:@{NSLocalizedDescriptionKey:
+                                              @"settingsFileURL: is nil"}];
     }
     return NO;
   }
   
   FMDatabase *db = [self database];
-  Class clazz = [self rt_class];
-  NSArray *properties = [clazz rt_properties];
+  NSArray *properties = [[self rt_class] rt_properties];
   
   [db open];
   for (RTProperty *property in properties) {
@@ -81,7 +78,7 @@
     
     [db
      executeUpdate:@"replace into settings (type, name, value) values(?, ?, ?)",
-     type, name, value, name];
+     type, name, value];
   }
   [db close];
   
