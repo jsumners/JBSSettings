@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'FMDB', '~> 2.5'
 
-  s.source_files = 'Classes',
-                   'Classes/*.{h,m}',
+  s.source_files = 'Classes/JBSSettings.{h,m}',
                    'Classes/MAObjCRuntime/M*.{h,m}',
                    'Classes/MAObjCRuntime/RT*.{h,m}'
   s.requires_arc = ['Classes/JBSSettings.m']
