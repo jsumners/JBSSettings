@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A settings object that is less annoying than NSUserDefaults'
   s.description  = 'A settings object that is less annoying than NSUserDefaults.'
   s.homepage     = 'https://github.com/jsumners/JBSSettings'
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = { :type => 'MIT' }
   s.authors      = { 'James Sumners' => "james.sumners@gmail.com" }
   s.source       = {
                       :git => 'https://github.com/jsumners/JBSSettings.git',
