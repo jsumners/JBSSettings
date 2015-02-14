@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/JBSSettings.{h,m}',
                    'Classes/MAObjCRuntime/M*.{h,m}',
                    'Classes/MAObjCRuntime/RT*.{h,m}'
+  s.exclude_files = 'Classes/MAObjCRuntime/main.m'
   s.requires_arc = ['Classes/JBSSettings.m']
 end
